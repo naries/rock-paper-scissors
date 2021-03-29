@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [here](https://t.co/EOego8DGq7?amp=1)
+- Live Site URL: [here](https://rock-and-paper-and-scissors.netlify.app/picked/paper/)
 
 ## My process
 
