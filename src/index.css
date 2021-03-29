@@ -3,4 +3,8 @@ body {
   font-family: 'Barlow Semi Condensed', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-image: radial-gradient(hsl(214, 47%, 23%), hsl(237, 49%, 15%));
 }

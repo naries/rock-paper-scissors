@@ -4,16 +4,16 @@ import GameRules from '../images/image-rules.svg'
 import Close from '../images/icon-close.svg'
 
 const BottomHang = styled.div`
-    position: fixed;
+    position: absolute;
     right: 60px;
     bottom: 60px;
     color: white;
     z-index: 2000;
-    @media(max-width: 375px) {
+    @media(max-width: 585px) {
       right: 35%;
     }
 `
-const BottomHangInner = styled.button`
+const BottomHangInner = styled.div`
     border: 1px solid white; 
     padding: 10px 30px;
     border-radius: 12px;
@@ -22,10 +22,11 @@ const BottomHangInner = styled.button`
     outline: none;
     color: white;
     background-color: transparent;
+    text-decoration: none;
 `
     
 const Overlay = styled.div`
-    background-color: transparent;
+    background-color: rgba(0,0,0, .7);
     position: fixed;
     left: 0;
     right:0;
@@ -43,7 +44,7 @@ const OverlayInner = styled.div`
     border-radius: 15px;
     display: flex;
     flex-direction: column;
-    @media(max-width: 375px) {
+    @media(max-width: 585px) {
         padding: 0;
         border-radius: 0;
         width: 100%;
@@ -54,11 +55,10 @@ const OverlayInner = styled.div`
 const OverlayHeader = styled.div`
     display: flex;
     justify-content: space-between;
-
     text-align: left;
     padding: 30px 30px 0px 30px;
     fontWeight: 700;
-    @media(max-width: 375px) {
+    @media(max-width: 585px) {
         flex: 1;
         justify-content: center;
         align-items: center;
@@ -66,7 +66,7 @@ const OverlayHeader = styled.div`
 `
 const OverlayBody = styled.div`
     padding: 50px;
-    @media(max-width: 375px) {
+    @media(max-width: 585px) {
         padding:25px;
         flex: 1;
     }
@@ -77,12 +77,12 @@ const CloseButton = styled.div`
     img {
         width: 20px;
         height: 20px;
-        @media(max-width: 375px) {
+        @media(max-width: 585px) {
             width: 30px;
             height: 30px;
         }
     }
-    @media (max-width: 375px) {
+    @media (max-width: 585px) {
         position: absolute;
         bottom: 50px;
         text-align: center;
@@ -92,7 +92,7 @@ const CloseButton = styled.div`
 const ExtraSpace = styled.div`
     display: none;
     flex:1;
-    @media(max-width: 375px) {
+    @media(max-width: 585px) {
         display: block;
     }
 `

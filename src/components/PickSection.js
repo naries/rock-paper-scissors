@@ -29,8 +29,6 @@ import { Link } from "react-router-dom"
 const PickSection = ({ updateScore, generated }) => {
     let { which } = useParams()
     const [loading, setLoading] = useState(false)
-    console.log(generated)
-    
     if(!loading) {
         setTimeout(() => {
             setLoading(true)
@@ -42,7 +40,6 @@ const PickSection = ({ updateScore, generated }) => {
 
     useEffect(() => {
         if(loading){
-            console.log(which, generated)
             if(which === generated) {
                 updateScore()
                 text="A tie"
