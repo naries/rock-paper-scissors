@@ -93,7 +93,7 @@ I still have to develop in areas of smooth responsiveness and caching images for
 ## Author
 
 - Website - [Ajiboye Mayokun](https://rock-and-paper-and-scissors.netlify.app/)
-- Frontend Mentor - [@mayokun](https://www.frontendmentor.io/profile/mayokun)
+- Frontend Mentor - [@phynormynal](https://www.frontendmentor.io/profile/mayokun)
 - Twitter - [@AjibsonMayokunA](https://www.twitter.com/AjibsonMayokunA)
 
 
