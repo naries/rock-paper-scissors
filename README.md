@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [here](https://t.co/EOego8DGq7?amp=1)
+- Live Site URL: [here](https://rock-and-paper-and-scissors.netlify.app/picked/paper/)
 
 ## My process
 
@@ -93,8 +93,8 @@ I still have to develop in areas of smooth responsiveness and caching images for
 ## Author
 
 - Website - [Ajiboye Mayokun](https://rock-and-paper-and-scissors.netlify.app/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/mayokun)
-- Twitter - [@yourusername](https://www.twitter.com/AjibsonMayokunA)
+- Frontend Mentor - [@phynormynal](https://www.frontendmentor.io/profile/mayokun)
+- Twitter - [@AjibsonMayokunA](https://www.twitter.com/AjibsonMayokunA)
 
 
 Special Thanks to Frontend Mentor for the wonderful and tasking designs that are given as challenges. I hope to keep on working hard and bring the best out of myself with Frontend mentor leading the way.
